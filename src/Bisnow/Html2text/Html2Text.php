@@ -8,8 +8,8 @@
 
 namespace Bisnow\Html2text;
 
-require_once('../../Html2Text.php');
-require_once('../../Html2TextException.php');
+require_once(__DIR__ . '/../../Html2Text.php');
+require_once(__DIR__ . '/../../Html2TextException.php');
 
 class Html2Text
 {
