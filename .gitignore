@@ -1,4 +1,5 @@
-tests/*.output
-*.sublime-project
-*.sublime-workspace
 vendor/
+tests/
+composer.phar
+composer.lock
+.DS_Store
