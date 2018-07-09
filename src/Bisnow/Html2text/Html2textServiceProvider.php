@@ -18,7 +18,7 @@ class Html2textServiceProvider extends ServiceProvider {
 	 */
 	public function boot()
 	{
-		$this->package('bisnow/html2text');
+		// $this->package('bisnow/html2text');
 	}
 
 	/**
