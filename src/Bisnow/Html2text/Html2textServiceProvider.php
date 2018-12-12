@@ -28,9 +28,9 @@ class Html2textServiceProvider extends ServiceProvider {
 	 */
 	public function register()
 	{
-		$this->app['html2text'] = $this->app->share(function($app) {
-      return new \Bisnow\Html2text\Html2Text;
-    });
+        $this->app->singleton('html2text', function($app) {
+            return new \Bisnow\Html2text\Html2Text;
+        });
 	}
 
 	/**
@@ -40,7 +40,7 @@ class Html2textServiceProvider extends ServiceProvider {
 	 */
 	public function provides()
 	{
-    return array('html2text');
+        return array('html2text');
 	}
 
 }
