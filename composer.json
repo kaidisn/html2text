@@ -1,6 +1,7 @@
 {
     "name": "bisnow/html2text",
     "description": "A PHP script to convert HTML into a plain text format",
+    "version": "5.5.2",
     "authors": [
         {
             "name": "Jevon Wright",
